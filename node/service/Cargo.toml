@@ -61,7 +61,9 @@ sc-telemetry = { git = "https://github.com/purestake/substrate", branch = "cryst
 sc-transaction-pool = { git = "https://github.com/purestake/substrate", branch = "crystalin-v0.9.9-block-response-length", features = ["test-helpers"] }
 sp-transaction-pool = { git = "https://github.com/purestake/substrate", branch = "crystalin-v0.9.9-block-response-length" }
 sc-transaction-pool-api = { git = "https://github.com/purestake/substrate", branch = "crystalin-v0.9.9-block-response-length" }
-sc-network = { git = "https://github.com/purestake/substrate", branch = "crystalin-v0.9.9-block-response-length" }
+
+sc-network = { git = "ssh://git@github.com/calebcheng00/substrate", branch = "mybranch" }
+
 sc-basic-authorship = { git = "https://github.com/purestake/substrate", branch = "crystalin-v0.9.9-block-response-length" }
 sp-timestamp = { git = "https://github.com/purestake/substrate", branch = "crystalin-v0.9.9-block-response-length" }
 sp-trie = { git = "https://github.com/purestake/substrate", branch = "crystalin-v0.9.9-block-response-length" }
